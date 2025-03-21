@@ -53,7 +53,7 @@ except Exception as e:
 
 # Load the dataset for data insights (optional, if available)
 try:
-    df = pd.read_csv("https://raw.githubusercontent.com/ujwalreddybattut04/5g-data-predictor-xgboost/main/5G_Data_Usage_Prediction_Enhanced.csv")
+    df = pd.read_csv("C:\\Users\\ujwal\\Downloads\\5g-Data-Predictor\\5G_Data_Usage_Prediction_Enhanced.csv")
 except FileNotFoundError:
     df = None
     st.warning("⚠️ Dataset not found. Some data insights features will be disabled.")
