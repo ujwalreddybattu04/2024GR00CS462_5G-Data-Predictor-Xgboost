@@ -17,26 +17,33 @@ The 5G Data Usage Prediction App is an AI-powered tool that predicts mobile data
 Overview of My Dataset
 My dataset contains information about 5G data usage based on different factors. Here’s a breakdown of the key columns:
 
-1️⃣ User Information:
-user_id → Unique identifier for each user.
-2️⃣ Device & Application Usage:
-device_type → Type of device (Smartphone, Laptop, Tablet, etc.).
-app_category → Category of application (Gaming, Browsing, Video Streaming, etc.).
-session_duration → Duration of the session in minutes.
-data_quality → Quality of data used (Low, High, Ultra-HD, etc.).
-3️⃣ Network & Connection Details:
-time_of_day → Session time (Morning, Afternoon, Night, etc.).
-day_of_week → Day when the session occurred.
-network_type → Type of network (5G NSA, 5G SA, mmWave, Sub-6GHz, etc.).
-signal_strength → Signal strength in dBm (Negative values indicate weaker signals).
-prev_usage → Previous data usage in MB/GB.
-4️⃣ Location & Environmental Factors:
-location_type → Whether the user is in a Suburban, Urban, or Rural area.
-indoor_outdoor → Indicates if the session was indoors or outdoors.
-5️⃣ Performance & Data Consumption:
-throughput → Network speed in Mbps.
-background_usage → Background data consumption in GB.
-data_usage → The actual data usage in MB/GB (Target variable for prediction
+## 📊 Dataset Features
+
+### 1️⃣ User Information
+- `user_id` → Unique identifier for each user.
+
+### 2️⃣ Device & Application Usage
+- `device_type` → Type of device (Smartphone, Laptop, Tablet, etc.).
+- `app_category` → Category of application (Gaming, Browsing, Video Streaming, etc.).
+- `session_duration` → Duration of the session in minutes.
+- `data_quality` → Quality of data used (Low, High, Ultra-HD, etc.).
+
+### 3️⃣ Network & Connection Details
+- `time_of_day` → Session time (Morning, Afternoon, Night, etc.).
+- `day_of_week` → Day when the session occurred.
+- `network_type` → Type of network (5G NSA, 5G SA, mmWave, Sub-6GHz, etc.).
+- `signal_strength` → Signal strength in dBm (Negative values indicate weaker signals).
+- `prev_usage` → Previous data usage in MB/GB.
+
+### 4️⃣ Location & Environmental Factors
+- `location_type` → Whether the user is in a Suburban, Urban, or Rural area.
+- `indoor_outdoor` → Indicates if the session was indoors or outdoors.
+
+### 5️⃣ Performance & Data Consumption
+- `throughput` → Network speed in Mbps.
+- `background_usage` → Background data consumption in GB.
+- `data_usage` → The actual data usage in MB/GB (**Target variable for prediction**).
+
 
 Technologies Used
 
