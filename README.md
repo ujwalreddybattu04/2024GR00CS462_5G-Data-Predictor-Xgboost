@@ -6,7 +6,7 @@ The 5G Data Usage Prediction App is an AI-powered tool that predicts mobile data
 📌 Features
 
 **✅ Predicts mobile data usage based on real-world parameters
-**✅ Interactive UI built with Streamlit
+✅ Interactive UI built with Streamlit
 ✅ Supports categorical and numerical inputs for accurate modeling
 ✅ Uses XGBoost, a high-performance machine learning model
 ✅ Live deployment capability with Streamlit Cloud
